@@ -30,6 +30,12 @@ t0 = time.time()
 print(bubble_sort(A))
 t1 = time.time()
 print(f'Затраченное время: {t1 - t0}')
+t0 = time.time()
+A.sort()
+print(A)
+t1 = time.time()
+print(f'Затраченное время: {t1 - t0}')
+
 
 # Заполнение собственноручно
 # a = []
